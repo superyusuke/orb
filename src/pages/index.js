@@ -1,8 +1,8 @@
 import React from "react"
-import { Link } from "gatsby"
 
 import Layout from "../components/layout"
-import Image from "../components/image"
+import imagePath from "../images/lesson-samne.png"
+
 import SEO from "../components/seo"
 
 const IndexPage = () => (
@@ -25,11 +25,25 @@ const IndexPage = () => (
       <li>ソフトドリンク 500円〜</li>
       <li>アルコール 600円〜</li>
       <li>フード 250円〜</li>
-       <li>各自 Uber 等の出前注文は自由！</li>
+      <li>各自 Uber 等の出前注文は自由！</li>
       <li>Tax 10%</li>
       <li>一曲歌うといくら、的な料金はありません。</li>
     </p>
     <h2>楽器、はじめませんか？</h2>
+    <a href="https://www.youtube.com/channel/UC2tJTRynLlP5ke7GwWsUzYw">
+      <h3>ついに Orb 発信の初心講座を Youtube で開講！今すぐチェック！</h3>
+      <img
+        src={imagePath}
+        alt=""
+        style={{
+          display: "block",
+          width: "100%",
+          maxWidth: "400px",
+          margin: "0 auto",
+          paddingBottom: "20px",
+        }}
+      />
+    </a>
     <p>
       ORB では皆様にバンドごっこにご参加いただけますよう、毎日 18:00〜21:00
       まで（月曜定休日除く）初心者のための音楽教室を始めました。

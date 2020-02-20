@@ -31,7 +31,7 @@ const IndexPage = () => (
     </p>
     <h2>楽器、はじめませんか？</h2>
     <a href="https://www.youtube.com/channel/UC2tJTRynLlP5ke7GwWsUzYw">
-      <h3>ついに Orb 発信の初心講座を Youtube で開講！今すぐチェック！</h3>
+      <h3>ついに Orb 発信の初心者講座を Youtube で開講！今すぐチェック！</h3>
       <img
         src={imagePath}
         alt=""
